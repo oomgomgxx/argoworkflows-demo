@@ -16,7 +16,7 @@ public class ArgoWorkflowsDemoApplication {
 	static class TestController {
 		@GetMapping("/hi")
 		public String test() {
-			return "Hello World";
+			return "Hello World...";
 		}
 	}
 }
