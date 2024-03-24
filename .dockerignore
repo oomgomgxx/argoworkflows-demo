@@ -1,0 +1,21 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# 因为使用镜像环境，所以无需gradle文件
+gradle/
+gradlew
+gradlew.bat
+
+.gradle/
+build/
+Dockerfile
+.gitignore
+.dockerignore
+*.md
+
